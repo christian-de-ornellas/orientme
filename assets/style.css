@@ -1,0 +1,136 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    border-bottom: #ddd solid 1px;
+    box-shadow: #f1f1f1 2px 2px 2px 2px;
+    padding: 1rem;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+}
+
+.page-title {
+    width: 100%;
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+    font-size: 3rem;
+}
+
+.cases {
+    background-color: #081f2a;
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.white-color {
+    color: #fff;
+}
+
+.primary-color {
+    color: #576574;
+}
+
+.secondary-color {
+    color: #8395a7;
+}
+
+.background-primary {
+    background-color: #44bb44;
+}
+
+.background-secondary {
+    background-color: #4776ff;
+}
+
+.background-info {
+    background-color: #dd2255;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #8395a7;
+    padding-left: 4rem;
+    font-weight: 500;
+}
+
+.menu li a:hover {
+    color: #c8d6e5;
+    cursor: pointer;
+    transition: all linear 0.4s;
+    text-shadow: 1px 1px 1px #999;
+}
+
+.header-title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header-title h1 {
+    color: #081f2a;
+    font-weight: 400;
+    font-size: 2.6rem;
+}
+
+.special-font {
+    font-family: 'Lobster Two', cursive;
+    color: #081f2a;
+    font-size: 3.6rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #fff;
+    border: solid #ddd 1px;
+    box-shadow: #f1f1f1 2px 2px 2px 2px;
+    border-radius: 10px;
+}
+
+.card .card-title {
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #576574;
+
+}
+
+.card .card-subtitle {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #8395a7;
+}
